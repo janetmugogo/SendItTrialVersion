@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Create delivery order</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+   <img src="SendIT.png" alt="SendIT" width="18%";
+	height="54px";>
+<div class="nav">
+    
+      <a class="active" href="index.html">Home</a>
+      <a href="#" target="_blank">About Us</a>
+      <a href="#" target="_blank">Services</a>
+      <a href="#" target="_blank">Contact Us</a>
+        <div class="nav-right">
+        <a href="createdeliveryorder.html" >Create Delivery Order</a>
+        <a href="myorder.html" >My Order</a>
+          <a href="login.html" >Log In</a>
+          <a href="signup.html">Sign Up</a>
+        </div>  
+</div>
+
+<div class="myorder">
+    <form method="post" action="createdeliveryorder.html">
+  	   <div class="box">
+  	      
+	      <p style="text-align: center;font-size: 18px;color: #000000; font-weight: bold;">My Order</p>
+	      <br>
+	      <p>Order ID: 1</p>
+	      <p>Order Name: Janet Mugogo</p>
+        <p>From: Nairobi</p>
+	      <p>Phone Number: 0710864321</p>
+	      <p>Destination: Kisumu</p>
+        <p>Destination Address: 31141-00100</p>
+	      <p>Courier ID: 2</p>
+        <p>Parcel Status : On Transit</p>
+
+        <a href="#">
+             <div class="btn1" onclick="myFunction()">Cancel</div>
+      </a>
+      <a href="changedestination.html">
+             <div class="btn2">Change destination</div>
+      </a>
+
+	    </div>
+      
+    </form>
+
+    
+   <!-- <div class="footer">
+    <p>SendIT</p>
+    </div> -->
+
+</div>
+<script type="text/javascript">
+  function myFunction(){
+    alert("Do you want to cancel your delivery order?")
+  }
+</script>
+
+
+</body>
+</html>
